@@ -1,0 +1,1239 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    background: #e5e5e5;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.textLogo {
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+    font-family: 'Magra',serif;
+    font-style: normal;
+    font-weight: 540;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+main {
+    background-color: #FFFFFF;
+    max-width: 1440px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-ul > li {
+    list-style-type: none;
+    color: #FFFFFF;
+    font-family: 'Red Hat Text',serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.nav-ul > li > a {
+    text-decoration:none;
+    color: #FFFFFF;
+
+}
+
+.nav-ul > li > a:hover {
+    text-decoration:none;
+    color: black;
+}
+
+.nav-ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    margin: 0;
+    gap: 10px;
+}
+
+.logoNav{
+    display: flex;
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0 4px 4px rgba(13, 96, 111, 0.5);
+    justify-content: space-around;
+    align-items: center;
+    padding: 33px 0 14px 10px;
+}
+
+.logoNav > button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 103px;
+    height: 41px;
+    left: 196px;
+    top: 25px;
+    color: #FFFFFF;
+    background: #0D606F;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.header-info {
+    min-height: 422px;
+    color: #FFFFFF;
+    width: 62%;
+    margin-left: 10%;
+}
+
+.header-info > h1 {
+    font-family: 'Aleo',serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    margin: 0;
+}
+
+.header-info > h4 {
+    font-family: 'Aleo',serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 32px 0 46px 0;
+}
+
+.search {
+    width: 100%;
+    max-height: 95px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search > h4 {
+    font-family: 'Aleo',serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 32px 0 41px 41px;
+    color: #F2785C;
+}
+
+.search > button, .more {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+    margin-right: 18px;
+    height: 59px;
+    background: #0D606F;
+    box-shadow: 0 0 3px rgba(13, 96, 111, 0.08), 0 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    font-family: 'Red Hat Text',serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    opacity: 1;
+}
+
+#steps {
+    background-color: #FFFFFF;
+    max-width: 1440px;
+    margin: auto;
+}
+
+#steps > div {
+    display: flex;
+    flex-direction: column;
+    height: 424px;
+}
+
+#steps > div > h2 {
+    height: 53px;
+    font-family: 'Red Hat Text',serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    margin: auto;
+    text-align: center;
+}
+
+.steps {
+    width: 92%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.stepsDoing {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F2785C;
+    border-radius: 16px;
+}
+
+.stepsDoing > p, .tellSteps > p {
+    text-align: center;
+}
+
+.tellSteps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#date {
+}
+
+.destinations {
+    background-color: #FFFFFF;
+}
+
+.destinations > h2 {
+    font-family: 'Red Hat Text',serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    text-align: center;
+}
+
+.country {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 60px;
+    width: 100%;
+    overflow:hidden;
+    justify-content: center
+}
+
+.country > p {
+    display: none;
+}
+
+.spain, .japan, .usa {
+    background: url("image/spainAnimation.jpg")  100% no-repeat;
+    width: 800px;
+    height: 800px;
+    font-family: 'Red Hat Text',serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.spain > p, .japan > p, .usa > p{
+    margin: 0 0 20px 10px;
+}
+
+.spain {
+    width: 280px;
+    border-radius: 0 16px 16px 0;
+}
+
+.japan{
+    background-image: url(image/japan.jpg);
+}
+
+.usa {
+    background: url("image/usaAnimation.jpg") no-repeat;
+    width: 280px;
+    border-radius: 16px 0 0 16px;
+
+}
+
+.nextCountry {
+    display: flex;
+    padding: 0;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.scroll { display: none}
+
+.nextSpain {
+    width: 20px;
+    height: 20px;
+    background: rgba(242, 120, 92, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-radius: 10px;
+}
+
+.nextJapan {
+    width: 20px;
+    height: 20px;
+    background: #F2785C;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-radius: 10px;
+}
+.nextUsa {
+    width: 20px;
+    height: 20px;
+    background: rgba(242, 120, 92, 0.5);
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    border-radius: 10px;
+}
+
+.more{
+    flex-direction: row-reverse;
+    padding: 0;
+    font-family: 'Red Hat Text',serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 20px auto;
+    width: 15%;
+}
+
+.stories {
+    background-image: url("image/global.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.sectionStories {
+    background-color: #FFFFFF;
+}
+
+.sectionStories > h2 {
+    font-family: 'Red Hat Text',serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    text-align: center;
+}
+
+.thailand, .utah, .long {
+    display: flex;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.utah:hover, .long:hover, .thailand:hover, .tellSteps:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.long {
+    display: flex;
+}
+
+#thailand, #utah, #long, #mountains {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.thailand > img, .utah > img, .long > img {
+    border-radius: 16px;
+    margin-left: 5%;
+}
+
+.thailand > div > h4, .utah > div > h4, .long > div > h4 {
+    font-family: 'Aleo',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #0D606F;
+    margin: 0 0 24px 0;
+}
+
+.thailand > div > p, .utah > div > p, .long > div > p {
+    font-family: 'Aleo',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    padding-bottom: 5px;
+    max-width: 1440px;
+    width: 90%;
+}
+
+footer > p {
+    font-family: 'Red Hat Text',serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+footer > ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    margin: 0;
+    padding-right: 50px;
+}
+
+footer > ul > li {
+    list-style-type: none;
+}
+
+.sign {
+    display: none;
+    width: 45%;
+    margin: auto;
+    background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.facebook, .google {
+    display: none;
+    /*display: flex;*/
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+    background: #1877F2;
+    box-shadow: 0 0 3px rgba(13, 96, 111, 0.08), 0 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    width: 87%;
+    height: 54px;
+    margin:  auto auto 3% auto;
+}
+
+.google > p , .facebook > p {
+    font-family: 'Red Hat Text',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.google > p {
+    color: #0D606F;
+}
+
+.google {
+    background: #FFFFFF;
+    margin: auto;
+}
+
+.yourAccount > h4 {
+    font-family: 'Aleo',serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #0D606F;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+
+#email, #userPassword {
+    margin-top: 5px;
+}
+
+.e-mail {
+    margin-bottom: 20px;
+}
+
+.or {
+    display: none;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    border: 1px solid rgba(13, 96, 111, 0.5);
+    height: 0;
+    width: 20%;
+}
+
+.textOr {
+    font-family: 'Aleo',serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(13, 96, 111, 0.5);
+    padding: 0 10px;
+}
+
+.e-mail, .password {
+    font-family: 'Aleo',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0D606F;
+}
+
+.e-mail > input, .password > input {
+    background: #FFFFFF;
+    box-shadow: inset 0 0 3px rgba(13, 96, 111, 0.08), inset 0 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    height: 54px;
+    width: 100%;
+    padding: 0;
+    border: none;
+}
+
+.input {
+    margin: 0 45px 0 45px;
+}
+
+.signIn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #0D606F;
+    box-shadow: 0 0 3px rgba(13, 96, 111, 0.08), 0 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    width: 87%;
+    height: 54px;
+    margin: 25px auto auto auto;
+}
+
+.signIn > p {
+    white-space: nowrap;
+    font-family:'Red Hat Text', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.forgot {
+    display: none;
+    font-family: 'Aleo',serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #0D606F;
+    text-shadow: 0 2px 3px rgba(255, 255, 255, 0.16);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+
+.lineFooter {
+    border: 1px solid rgba(13, 96, 111, 0.5);
+    transform: rotate(0.1deg);
+    margin: 20px 45px 0 45px;
+    width: 87%;
+}
+
+.register {
+    display: flex;
+    width: 87%;
+    margin: 20px 45px 0 45px;
+    justify-content: center;
+    padding-bottom: 23px;
+    font-family: 'Aleo',serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(13, 96, 111, 0.5);
+    text-shadow: 0 2px 3px rgba(255, 255, 255, 0.16);
+}
+
+.account {
+    width: 32%;
+}
+
+.registered {
+    text-decoration-line: underline;
+    color: #0D606F;
+}
+
+@media ( max-width: 1390px) {
+    footer { width: auto;
+        padding-left: 40%;}
+}
+
+@media ( max-width: 550px) {
+    footer > ul {padding-right: 0}
+    footer {padding-left: 0}
+    nav { display: none}
+    .thailand > img, .utah > img, .long > img { margin-left: 0}
+}
+
+@media ( max-width: 750px) {
+    .more { margin: 20px auto 50px auto;
+        }
+    .thailand, .utah, .long {
+        display: block;
+    }
+    .country { gap: 2%
+    }
+}
+
+.block {
+    height: 1300px;
+    display:inline-block;
+}
+
+.shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 41px;
+    padding-top: 20px;
+    margin-bottom: 5%;
+}
+
+#preview {
+    background-image: url("image/header.jpg") ;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 90px;
+    padding-bottom: 15%;
+}
+
+button {
+    cursor: pointer ;
+    border: 0;
+}
+
+button:hover {
+    background: black;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+li:hover {
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    text-decoration: underline;
+}
+
+footer > ul > li > a > img:hover {
+    opacity: 0.5;
+}
+
+.logo:hover {
+    transition: all 0.5s ease;
+}
+
+.navigationMenu:hover {
+    transition: all 1s ease;
+}
+
+.next {
+    display: none;
+}
+
+#spain {
+    display: none;
+}
+
+#thailandRead, #longRead, #mountainsRead, #utahRead {display: none}
+
+.menuBurger {display: none;
+    background: url("image/burgerMenu.svg") 100% 100% no-repeat;
+    width: 35px;
+    height: 35px}
+
+.navigationMenu {
+    position: absolute;
+    left: 225px;
+    width: 165px;
+    height: 250px;
+    background: #F2785C;
+    box-shadow: 0 4px 3px rgba(13, 96, 111, 0.25);
+    border-radius: 10px;
+    transition: 1.5s;
+    display: none}
+
+.clearfix {
+    list-style-type: none;
+}
+
+.transformation {
+    transform: translate(400px,0);
+    -webkit-transform: translate(400px,0);
+    transition: all 2s ease-in-out;
+}
+
+.transformationFull {
+    transform: translate(100em,0);
+    -webkit-transform: translate(100em,0);
+    transition: all 2s ease-in-out;
+}
+
+.navi > ul {
+    list-style: none;
+    transition: 1.5s;
+}
+
+.navi > ul > li > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.wrapper {
+}
+
+.navi {
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    transition: 1.5s;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-flow: column nowrap;
+    justify-content: center; /* см. ниже */
+    align-items: center;
+    z-index: 99;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.sign {
+    position: fixed;
+    top: 40px;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: none;
+    flex-flow: column nowrap;
+    justify-content: center; /* см. ниже */
+    z-index: 99;
+    opacity: 1;
+}
+
+.showAnimation {animation: showBlock 2s linear forwards}
+@keyframes showBlock {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.close { background: url("image/close.svg") 100% 100% no-repeat;
+            width: 15px;
+            height: 15px;
+            margin: 0 0 0 15px;
+            padding-top: 15px;}
+
+@media ( max-width: 391px) {
+    header { display: flex;
+        justify-content: space-between}
+    .icon {padding: 0 21px 0 0;}
+    .menuBurger {display: block;
+        padding: 41px 0 0 0}
+    .register {
+        justify-content: space-between;
+    }
+    .google, .facebook {
+        width: 73%;
+    }
+    .google > p, .facebook > p {
+        font-size: 19px;
+    }
+    .sign {
+        margin: 0;
+        width: 100%;
+    }
+    .signIn {
+        width: 65%;
+    }
+    .lineFooter, .register {
+        margin: 20px auto 0 auto;
+    }
+    .account, .registered {
+        white-space: nowrap;
+    }
+    #menu {display: block}
+    nav { display: none}
+    .textLogo { display: none}
+    .logoNav > button { display: none}
+    .logoNav { background: none;
+                all: unset}
+    .show {display: block;
+        animation: showBlock 1s linear forwards}
+    .showAnimation {animation: showBlock 2s linear forwards}
+    @keyframes showBlock {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .closeNavi {display: none}
+    .logo {padding: 45px 0 0 16px}
+    .imageLogo > img { color: #FFFFFF}
+    .header-info {width: 93%;
+            margin: auto;
+            min-height: auto}
+    .header-info > h1 { display: none}
+    .header-info > h4 { display: none}
+    .search {max-height: 49px;
+            margin-top: 54px;}
+    .search > h4 { font-size: 14px;
+        line-height: 16px;
+        padding: 40px 0 41px 16px;}
+    .search > button {all: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 7px 16px;
+        gap: 10px;
+        background: #0D606F;
+        box-shadow: 0 0 3px rgba(13, 96, 111, 0.08), 0 2px 3px rgba(13, 96, 111, 0.16);
+        border-radius: 10px;
+        font-size: 11px;
+        line-height: 15px;
+        margin-right: 10px;
+        margin-bottom: 6px;
+        }
+    #preview { background-image: url("image/headerTwo.jpg")}
+    #steps > div > h2 {font-size: 14px;
+        line-height: 19px;
+        height: unset;
+        margin: 20px 88px;
+    }
+    .stepsDoing { width: 70px;
+            height: 70px}
+    .stepsDoing > img {width: 50%;
+        height: 35px}
+    .tellSteps > p {
+        margin: 20px 0;
+    }
+    .steps {
+        font-size: 10px;
+        line-height: 12px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    #bice {width: 74px}
+    #bice > p {text-align: left}
+    #fly {width: 74px}
+    #fly > p {text-align: right;
+        padding-right: 6px}
+    #date {justify-content: unset;}
+    #steps > div { height: unset }
+    #destinations > h2 {
+        margin-top: 0;
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 20px}
+    .spain {all: unset;
+    display: none}
+    .usa {all: unset;
+        display: none;
+    }
+    .japan { all: unset;
+    display: none}
+    .country {
+        width: unset;
+        background: url("image/spainTwo.jpg") 100% 100% no-repeat;
+        min-height: 210px;
+        margin: 0 15px;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #spain {
+        display: block;
+        font-family: 'Red Hat Text',serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding-right: 75%;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+    .next {display: flex;
+        margin-top: 58px;
+        width: 100%}
+    .nextLeft {width: 30px;
+        height: 30px;
+        background: url("image/left.svg") 100% 100% no-repeat;
+        margin-left: -4px;}
+    .nextRight {width: 30px;
+        height: 30px;
+        background: url("image/right.svg") 100% 100% no-repeat;
+        padding-left: 83%;}
+    .scroll {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-top: 19%;
+        margin-bottom: 12px;
+        gap: 6px;
+    }
+    .scroll > div {
+        width: 8px;
+        height: 8px;
+    }
+    .nextCountry {
+        display: none;
+    }
+    .more { all: unset;
+        margin: 10px auto 20px auto;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        font-size: 11px;
+        line-height: 15px;
+        background: #0D606F;
+        box-shadow: 0 0 3px rgba(13, 96, 111, 0.08), 0 2px 3px rgba(13, 96, 111, 0.16);
+        border-radius: 10px;
+        width: auto;
+        padding: 7px 15px;
+        color: #FFFFFF;
+        font-family: 'Red Hat Text',serif;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .more > img {
+        width: 10px;
+        height: 10px;
+    }
+    .more > p {
+        margin: 0;
+    }
+    .sectionStories > h2 {
+        margin: 0 auto 10px auto;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .thailand { all: unset;
+        display: flex;
+        align-items: center}
+    .thailand > img {display: none}
+    #thailand, #utah, #long, #mountains { margin: 0;
+        padding-bottom: 3px}
+    .imgThailand {
+        background: url("image/thailandTwo.jpg" ) 100% 100% no-repeat;
+        width: 100%;
+        min-height: 130px;
+        min-width: 155px;
+        margin: 10px 10px 15px 15px;
+        filter: drop-shadow(0px 4px 4px #0D606F);
+        border-radius: 16px;
+    }
+    #thailand > h4 {
+        font-family: 'Aleo', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        color: #0D606F;
+        margin-bottom: 10px;
+    }
+    #thailand > p {
+        font-family: 'Aleo',serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 11px;
+        color: #0D606F;
+        margin: 0;
+        padding-right: 15px;
+    }
+     #thailand > p {
+        margin: 0; /* Убираем внешний отступ */
+        -webkit-line-clamp: 8; /* Число отображаемых строк */
+        display: -webkit-box; /* Включаем флексбоксы */
+        -webkit-box-orient: vertical; /* Вертикальная ориентация */
+        overflow: hidden; /* Обрезаем всё за пределами блока */
+    }
+    #thailandRead {display: flex;
+        font-family: 'Aleo',serif;
+        font-style: normal;
+        font-size: 9px;
+        line-height: 11px;
+        color: #0D606F;
+        font-weight: bold}
+
+    .utah { all: unset;
+        display: flex;
+        align-items: center}
+    .utah > img {display: none}
+    .imgUtah {
+        background: url("image/utahTwo.jpg" ) 100% 100% no-repeat;
+        width: 100%;
+        min-height: 130px;
+        min-width: 155px;
+        margin: 10px 10px 15px 15px;
+        filter: drop-shadow(0px 4px 4px #0D606F);
+        border-radius: 16px;
+    }
+    #utah > h4 {
+        font-family: 'Aleo', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        color: #0D606F;
+        margin-bottom: 10px;
+    }
+    #utah > p {
+        font-family: 'Aleo',serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 11px;
+        color: #0D606F;
+        margin: 0;
+        padding-right: 15px;
+    }
+    #utah > p {
+        margin: 0;
+        -webkit-line-clamp: 8;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    #utahRead {display: flex;
+        font-family: 'Aleo',serif;
+        font-style: normal;
+        font-size: 9px;
+        line-height: 11px;
+        color: #0D606F;
+        font-weight: bold}
+    #mountainsUtah { all: unset;
+        display: flex;
+        align-items: center}
+    #mountainsUtah > img {display: none}
+    .imgMountains {
+        background: url("image/mountainsTwo.jpg" ) 100% 100% no-repeat;
+        width: 100%;
+        min-height: 130px;
+        min-width: 155px;
+        margin: 10px 10px 15px 15px;
+        filter: drop-shadow(0px 4px 4px #0D606F);
+        border-radius: 16px;
+    }
+    #mountains > h4 {
+        font-family: 'Aleo', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        color: #0D606F;
+        margin-bottom: 10px;
+    }
+    #mountains > p {
+        font-family: 'Aleo',serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 11px;
+        color: #0D606F;
+        margin: 0;
+        padding-right: 15px;
+    }
+    #mountains > p {
+        margin: 0;
+        -webkit-line-clamp: 8;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    #mountainsRead {display: flex;
+        font-family: 'Aleo',serif;
+        font-style: normal;
+        font-size: 9px;
+        line-height: 11px;
+        color: #0D606F;
+        font-weight: bold}
+    .long { all: unset;
+        display: flex;
+        align-items: center}
+    .long > img {display: none}
+    .imgLong {
+        background: url("image/longTwo.jpg" ) 100% 100% no-repeat;
+        width: 100%;
+        min-height: 130px;
+        min-width: 155px;
+        margin: 10px 10px 15px 15px;
+        filter: drop-shadow(0px 4px 4px #0D606F);
+        border-radius: 16px;
+    }
+    #long > h4 {
+        font-family: 'Aleo', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        color: #0D606F;
+        margin-bottom: 10px;
+    }
+    #long > p {
+        font-family: 'Aleo',serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 11px;
+        color: #0D606F;
+        margin: 0;
+        padding-right: 15px;
+    }
+    #long > p {
+        margin: 0; /* Убираем внешний отступ */
+        -webkit-line-clamp: 8; /* Число отображаемых строк */
+        display: -webkit-box; /* Включаем флексбоксы */
+        -webkit-box-orient: vertical; /* Вертикальная ориентация */
+        overflow: hidden; /* Обрезаем всё за пределами блока */
+    }
+    #longRead {display: flex;
+        font-family: 'Aleo',serif;
+        font-style: normal;
+        font-size: 9px;
+        line-height: 11px;
+        color: #0D606F;
+        font-weight: bold}
+    .shadow {
+        padding-top: 0;
+        padding-bottom: 4%;
+    }
+    .stories {
+        background-image: url("image/globalTwo.jpg");
+        padding-bottom: 17%;
+    }
+    .imgLong {margin-bottom: 10px;}
+    #see {margin-top: 0;
+        margin-bottom: 0}
+    footer > p {
+        display: none;
+    }
+    footer > ul {
+        margin: auto;
+        height: 85%;
+        padding: 0 0 20px 0;
+    }
+    footer{padding: 0;
+        margin-bottom: -9px;
+        margin-left: 9px}
+    .imgUtah { margin-top: 0}
+    #utah {padding-bottom: 13px}
+    .imgMountains { margin-top: 0}
+    #mountains {padding-bottom: 13px}
+    .imgLong { margin-top: 0}
+    #long {padding-bottom: 8px}
+    .stories {padding-bottom: 11%}
+    #plain > img {width: 40px}
+    .nextSpain {order: 1}
+    .nextJapan {order: 0}
+    .showJapan {
+        background: url("image/japanTwo.jpg" ) 100% 100% no-repeat;
+    }
+    .showUsa {
+        background: url("image/usaTwo.jpg" ) 100% 100% no-repeat;
+    }
+
+}

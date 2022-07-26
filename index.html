@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel</title>
+    <link rel="icon" href="https://img.icons8.com/emoji/48/000000/pile-of-poo.png"/>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/aleo-2" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/magra" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/red-hat-text" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+<div class="modal" id="modal">
+
+
+</div>
+<div class="sign" id="sign">
+    <div class="yourAccount">
+        <h4 id="h4">Create account</h4>
+        <button class="facebook" id="facebook">
+            <img src="image/facebook.svg" alt="facebook">
+            <p>Sign In with Facebook</p>
+        </button>
+        <button class="google" id="google">
+            <img src="image/google.svg" alt="google">
+            <p>Sign In with Google</p>
+        </button>
+    </div>
+    <div class="or" id="or">
+        <p class="line"></p>
+        <p class="textOr"> or </p>
+        <p class="line"></p>
+    </div>
+    <div class="input" id="input">
+        <div class="e-mail">
+            <label for="email">E-mail:</label> <br />
+            <input id="email" type="email">
+        </div>
+        <div class="password">
+            <label for="userPassword">Password:</label> <br />
+            <input id="userPassword" type="password">
+        </div>
+    </div>
+    <div class="footerAccount">
+        <button class="signIn" id="signIn">
+            <p id="in">Sign Up</p>
+        </button>
+        <p class="forgot" id="forgot">Forgot Your Password?</p>
+        <p class="lineFooter" id="lineFooter"></p>
+        <div class="register" id="register">
+            <div class="account" id="account">Already have an account?</div>
+            <div class="registered" id="registered">Log in</div>
+        </div>
+
+    </div>
+</div>
+
+    <header>
+        <div class="logoNav">
+            <div class="logo">
+                <div class="imageLogo">
+                    <img src="image/logo.svg" alt="logo">
+                </div>
+                <div class="textLogo">
+                    Travel Portal
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-ul">
+                    <li>
+                        <a href="#preview">How It Works</a>
+                    </li>
+                    <li>
+                        <a href="#steps">Plan Your Trip</a>
+                    </li>
+                    <li>
+                        <a href="#destinations">Destinations</a>
+                    </li>
+                    <li>
+                        <a href="#stories">Travel Stories</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="buttonLogin" id="login">
+               Login
+            </button>
+        </div>
+        <div class="icon">
+            <div class="wrapper">
+                <div class="menuBurger" id="menu"></div>
+                <div class="navigationMenu transform" id="navigationMenu">
+                    <div class="close" id="close"></div>
+                    <div class="navi">
+                        <ul class="menu clearfix">
+                            <li>
+                                <a href="#preview">How It Works</a>
+                            </li>
+                            <li>
+                                <a href="#steps">Plan Your Trip</a>
+                            </li>
+                            <li>
+                                <a href="#destinations">Destinations</a>
+                            </li>
+                            <li>
+                                <a href="#stories">Travel Stories</a>
+                            </li>
+                            <li>
+                                <a id="accountMobi">Account</a>
+                            </li>
+                            <li>
+                                <a href="#socialMedia">Social Media</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section id="preview">
+            <div class="header-info">
+                <h1>Explore the beauty of the World</h1>
+                <h4>Receive personalized recommendations for countries, hotels, activities and more</h4>
+                <div class="search">
+                    <h4>What would you like to do?</h4>
+                    <button>Start Planning</button>
+                </div>
+            </div>
+        </section>
+        <section id="steps">
+            <div>
+                <h2>3 STEPS TO THE PERFECT TRIP </h2>
+                <div class="steps">
+                    <div class="tellSteps" id="bice">
+                        <div class="stepsDoing">
+                            <img src="image/doing.svg" alt="doing">
+                        </div>
+                        <p>Tell us what you want to do</p>
+                    </div>
+                    <div class="tellSteps" id="date">
+                        <div class="stepsDoing">
+                            <img src="image/now.svg" alt="date">
+                        </div>
+                        <p>Share us preferable dates </p>
+                    </div>
+                    <div class="tellSteps" id="fly">
+                        <div class="stepsDoing" id="plain">
+                            <img src="image/recommendation.svg" alt="recommendation">
+                        </div>
+                        <p>We will give you recommendations</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="destinations" id="destinations">
+            <h2>POPULAR DESTINATIONS</h2>
+            <div class="country" id="country">
+                <div id="spain">SPAIN</div>
+                <div class="next">
+                    <div class="nextLeft" id="nextLeft"></div>
+                    <div class="nextRight" id="nextRight"></div>
+                </div>
+                <div class="scroll">
+                    <div class="nextSpain" id="nextSpain"></div>
+                    <div class="nextJapan" id="nextJapan"></div>
+                    <div class="nextUsa" id="nextUsa"></div>
+                </div>
+                <div class="spain" id="oneCountry">
+                    <p id="oneText">SPAIN</p>
+                </div>
+                <div class="japan" id="twoCountry">
+                    <p id="twoText">JAPAN</p>
+                </div>
+                <div class="usa" id="threeCountry">
+                    <p id="threeText">USA</p>
+                </div>
+            </div>
+            <div class="nextCountry">
+                <div class="nextSpain" id="nextSpainFull"></div>
+                <div class="nextJapan" id="nextJapanFull"></div>
+                <div class="nextUsa" id="nextUsaFull"></div>
+            </div>
+            <button class="more">
+                <p>Find More</p>
+                <img src="image/arrow.svg" alt="arrow">
+            </button>
+        </section>
+        <section class="sectionStories" id="stories">
+            <h2>TRAVEL STORIES</h2>
+            <div class="stories">
+                <div class="shadow">
+                    <div class="thailand">
+                        <div class="imgThailand"></div>
+                        <img src="image/thailand.jpg" alt="thailand">
+                        <div id="thailand">
+                            <h4>10 Photos of Attractive Thailand</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br>
+                                <b><u>Read More</u></b>
+                            </p>
+                            <div id="thailandRead"><u>Read More</u></div>
+                        </div>
+                    </div>
+                    <div class="utah">
+                        <div class="imgUtah"></div>
+                        <img src="image/utah.jpg" alt="utah">
+                        <div id="utah">
+                            <h4>Canyonlands National Park, Utah</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
+                                sit amet, consectetur adipiscing elit...<br>
+                                <b><u>Read More</u></b>
+                            </p>
+                            <div id="utahRead"><u>Read More</u></div>
+                        </div>
+                    </div>
+                    <div class="utah" id="mountainsUtah">
+                        <div class="imgMountains"></div>
+                        <img src="image/mountains.jpg" alt="mountains">
+                        <div id="mountains">
+                            <h4>I left my heart in the Mountains!</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
+                                sit amet, consectetur adipiscing elit...<br>
+                                <b><u>Read More</u></b>
+                            </p>
+                            <div id="mountainsRead"><u>Read More</u></div>
+                        </div>
+                    </div>
+                    <div class="long">
+                        <div class="imgLong"></div>
+                        <img src="image/long.jpg" alt="road">
+                        <div id="long">
+                            <h4>The Longest journey in my life!</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br>
+                                <b><u>Read More</u></b>
+                            </p>
+                            <div id="longRead"><u>Read More</u></div>
+                        </div>
+                    </div>
+                    <button class="more" id="see">
+                        See More
+                        <img src="image/arrow.svg" alt="arrow">
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="socialMedia">
+        <p>All Rights Reserved © Travel Portal</p>
+        <ul>
+            <li>
+                <a href="https://github.com/Mikalik9999/travel" target="_blank"
+                   onclick="location.href='https://rs.school/js-stage0/'">
+                    <img src="image/instagram.svg" alt="instagram">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Mikalik9999/travel" target="_blank"
+                   onclick="location.href='https://rs.school/js-stage0/'">
+                    <img src="image/youtube.svg" alt="youtube">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Mikalik9999/travel" target="_blank"
+                   onclick="location.href='https://rs.school/js-stage0/'">
+                    <img src="image/twitter.svg" alt="twitter">
+                </a>
+            </li>
+        </ul>
+    </footer>
+<script src="index.js"></script>
+
+
+</body>
+</html>
